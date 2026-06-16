@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "idTODetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "skill_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "difficulty",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "personal_note",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_skillName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_difficulty",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_personalNote",
+						"type": "string"
+					}
+				],
+				"name": "show1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "skillToDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "skill_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "difficulty",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "personal_note",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_Lects/storageFactory/inheritance04.sol": "mod_skills"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_Lects/RealProjects/skills.sol": {
+			"keccak256": "0x2e45eba72e211dc5dcbba184f8abd62093c3638c089c82f2de79ce19ca4b7951",
+			"urls": [
+				"bzz-raw://1ff0641cd47e84160eb6196a2b5c41cd96f361cdd1db34bacb941c14a7b34bb3",
+				"dweb:/ipfs/QmTtuQc1uMpQyshzs8Lu7sXHzX38VQHDZJCCnaJSdQgmcW"
+			]
+		},
+		"solidity_Lects/storageFactory/inheritance04.sol": {
+			"keccak256": "0x6dc0b3f02560db6927baacaeffe2ee3d767d69deec9e78a6df2830a132c4d590",
+			"urls": [
+				"bzz-raw://463fec854445106c6a853af09c1f4758e92c9a5d480e319b460390f99aadf8c4",
+				"dweb:/ipfs/QmcS5KN7KMbztdFDxm3vzWcdqKz1VPqv7HXYB63N58JBaW"
+			]
+		}
+	},
+	"version": 1
+}

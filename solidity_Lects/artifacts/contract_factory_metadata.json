@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contract1",
+				"outputs": [
+					{
+						"internalType": "contract simpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "storingAddress",
+				"outputs": [
+					{
+						"internalType": "contract simpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"factoryStorage05.sol": "contract_factory"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"arrays02.sol": {
+			"keccak256": "0xa9544995bd4ffdf9a672b6de11f0e044bad724b8b0d963e71b166db37f1ddff2",
+			"urls": [
+				"bzz-raw://be10e9aa9052fe7aa84af9e5f99a2d44d8f39791fce3517507b3961323a98b2e",
+				"dweb:/ipfs/QmajksEDidM29aAeB1nq4r1sfrF9PbGcme3dZGaL7fPTX9"
+			]
+		},
+		"factoryStorage05.sol": {
+			"keccak256": "0x788675ae2ba136fd556cc8e1701db896bd8d12c8dc831b360a279242eebd03e5",
+			"urls": [
+				"bzz-raw://c64aad7e946210959ad472dc53f1a7fd037ff34efc41fbe9b5b4c6fc3e5b1169",
+				"dweb:/ipfs/Qma545kZgmz6H7ZvFcMkrMNfjx3DcyuAHoK1hhqBkT5b42"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.39.0.
+ * Original file: /npm/arra@0.0.12/lib/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Arra=void 0,Object.defineProperty(Array.prototype,"uniqify",{value:function(r){var t={};[].concat(this).forEach((function(e){var n=r(e);t[n]||(t[n]=[]),t[n].push(e)}));var e=[];for(var n in t)e.push(t[n]);return e}}),Object.defineProperty(Array.prototype,"_2dTo1d",{value:function(){return[].concat(this).map((function(r){return r[0]}))}});var Arra=function(){function r(){}return r.includeMe=function(){return"thanks!"},r}();exports.Arra=Arra;
+//# sourceMappingURL=/sm/7e1813a7dd889719e4715be34d7ac105311c20f781c18830ece3790480c17192.map

@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "NameToTask",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Team_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "task_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "member_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "task_count",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Team_Reputation",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "NameToTeam",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Team_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Number_Of_Members",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "tName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "TaskName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "memName",
+						"type": "string"
+					}
+				],
+				"name": "task_register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "tName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "NuMem",
+						"type": "uint256"
+					}
+				],
+				"name": "team_register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_Lects/RealProjects/team_register.sol": "regularTeam"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_Lects/RealProjects/team_register.sol": {
+			"keccak256": "0x3beed694c9fa725db2d1c2fa317e25d76d4a8313d4e9a50d45d44f2617fcce15",
+			"urls": [
+				"bzz-raw://217869c31e40f44e54d60004e8d9167def4a3d9d9f827bac9b91179e52809282",
+				"dweb:/ipfs/Qma2ebSsxPyafsuBzHt7vgMmSMsr2uGg1PgvVX9asTBSoM"
+			]
+		}
+	},
+	"version": 1
+}

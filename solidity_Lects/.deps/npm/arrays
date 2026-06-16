@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.39.0.
+ * Original file: /npm/arrays@0.1.1/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+var _=require("underscore");Array.prototype.add=function(r){return this.slice().concat(r)},Array.prototype.filter=function(r){return _.chain(this.slice()).filter(r).value()},Array.prototype.contains=function(r){return _.contains(this.slice(),r)},Array.prototype.equal=function(r){return JSON.stringify(this)===JSON.stringify(r)},Array.prototype.find=function(r){return _.find(this.slice(),r)},Array.prototype.reject=function(r){return _.reject(this.slice(),r)},Array.prototype.every=function(r){return _.every(this.slice(),r)},Array.prototype.where=function(r){return _.where(this.slice(),r)},Array.prototype.each=[].forEach;
+//# sourceMappingURL=/sm/c026f5ca1b775b5fdff93028d53a9dc245a22cfe44aa2189f3e1d7ce342975db.map

@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contractNew",
+				"outputs": [
+					{
+						"internalType": "contract simpleStorage3",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "namee",
+						"type": "string"
+					}
+				],
+				"name": "get_val",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bal",
+						"type": "uint256"
+					}
+				],
+				"name": "imp_fun",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_Lects/storageFactory/factoryStorage03.sol": "storageFactory"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_Lects/basics/mapping03.sol": {
+			"keccak256": "0xbb3f30d73dda855fdae8b9d7042f98a5e16e342ea8b116f804bd5c7ad2c4f16c",
+			"urls": [
+				"bzz-raw://2397ee5ef8a00d2d0fa07af6f75028e4e7740db21ebc45072875f1b073270c67",
+				"dweb:/ipfs/QmXGXnY6VDEvvB3dwPyVPh75pWjn4icADzvAeJ1jpPFpyz"
+			]
+		},
+		"solidity_Lects/storageFactory/factoryStorage03.sol": {
+			"keccak256": "0xcc9d91338006f58951374b2de599316e651250f53b1552b95af01698473254de",
+			"urls": [
+				"bzz-raw://ffb55b9b495d9ab3abd2e14e8a5a3096802b16a9093bfe14b1a4ed39bd938b6e",
+				"dweb:/ipfs/QmfRoA8TzUCmvDbnsoWFXH7AqCUd38NhtjAAmSMiEG1Nxz"
+			]
+		}
+	},
+	"version": 1
+}

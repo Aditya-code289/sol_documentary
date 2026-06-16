@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "idTODetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "skill_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "difficulty",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "personal_note",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_skillName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_difficulty",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_personalNote",
+						"type": "string"
+					}
+				],
+				"name": "show1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "skillToDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "skill_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "difficulty",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "personal_note",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"realProject.sol": "skills"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"realProject.sol": {
+			"keccak256": "0xf948c0bfe7d9eb6f766b106efe0108b5abbd63c3a9a2c8015616fdc85c91a1b6",
+			"urls": [
+				"bzz-raw://ca3fb4a060d4be2872d5734e278700e1bcf710e324a0d74222424b7800765a4b",
+				"dweb:/ipfs/QmcVao2u4Jvvx3Kncrz9JjMZWvuZNjUCVuyN6eG94mdjq6"
+			]
+		}
+	},
+	"version": 1
+}

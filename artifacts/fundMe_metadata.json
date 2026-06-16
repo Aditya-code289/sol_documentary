@@ -11,6 +11,21 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "Insuff_amount",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "NotOwner",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "Withdraw_failed",
+				"type": "error"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -89,7 +104,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity_Lects/ChainLink.sol/withdraw.sol": "fundMe"
+			"solidity_Lects/ChainLink.sol/Gas_Efficient.sol": "fundMe"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -111,11 +126,11 @@
 				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
 			]
 		},
-		"solidity_Lects/ChainLink.sol/withdraw.sol": {
-			"keccak256": "0xc7d77e6d5cf5bbf75e1acaa1bd265909f017da4fd583444253defbfab89ec902",
+		"solidity_Lects/ChainLink.sol/Gas_Efficient.sol": {
+			"keccak256": "0x49b2da894b618869384c6a8861a65a65dd09536a1498ba22f61ad26080acd290",
 			"urls": [
-				"bzz-raw://e1ba3e24304f3ecc519c795af00e1176b472d8ee244d1033a0c72e3c6b7db92a",
-				"dweb:/ipfs/QmNvXBN1CUMQDyMBXcy7QNeFySLc3WLTLLZfzsYMgwAZXS"
+				"bzz-raw://e706a583f90e78fffd8068ad69510e46e7baf74476bd70cb37cf62bf79c013c4",
+				"dweb:/ipfs/QmeC27cgRJAJTHFFNZgLds5qaaRXRpDQut7bKVZXT9dCUx"
 			]
 		}
 	},

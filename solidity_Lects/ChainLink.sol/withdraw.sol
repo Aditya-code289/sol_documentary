@@ -7,7 +7,7 @@ contract fundMe{
 
     address[] public Sender_contract;
     address owner;
-    uint min_usd = 1;   // 1 USD = 0.005 ETH
+    uint min_usd = 1e18;   // 1 USD = 0.005 ETH
 
     function fetch_price() public view returns(uint) {
         //Adderess: 0x694AA1769357215DE4FAC081bf1f309aDC325306
@@ -24,11 +24,11 @@ contract fundMe{
     }
 
     function get_fund() public payable{
-        require(msg.value >= conversion(min_usd), "Not enough emount");
+        require(conversion(msg.value) >= min_usd, "Not enough emount");
         Sender_contract.push(msg.sender);
     }
 
-    constructor(){
+    constructor(){ 
         owner = msg.sender;
     }
 
